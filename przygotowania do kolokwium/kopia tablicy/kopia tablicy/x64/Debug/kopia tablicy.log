@@ -1,0 +1,18 @@
+﻿  Assembling source.asm...
+source.asm(1): error A2008: syntax error : .
+source.asm(3): error A2008: syntax error : .
+source.asm(4): error A2008: syntax error : in directive
+source.asm(8): error A2070: invalid instruction operands
+source.asm(10): error A2070: invalid instruction operands
+source.asm(11): error A2070: invalid instruction operands
+source.asm(12): error A2070: invalid instruction operands
+source.asm(17): error A2070: invalid instruction operands
+source.asm(20): error A2070: invalid instruction operands
+source.asm(46): error A2070: invalid instruction operands
+source.asm(48): error A2070: invalid instruction operands
+source.asm(49): error A2070: invalid instruction operands
+source.asm(50): error A2070: invalid instruction operands
+source.asm(51): error A2070: invalid instruction operands
+source.asm(54): error A2088: END directive required at end of file
+source.asm(18): error A2006: undefined symbol : _malloc
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\source.obj" /W3 /errorReport:prompt  /Tasource.asm" exited with code 1.
